@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
     navLinks.forEach(link => {
         link.addEventListener('click', e => {
             e.preventDefault();
-
             const targetId = link.getAttribute('href').substring(1); // Get target id from href attribute
             const targetSection = document.getElementById(targetId);
             if (targetSection) {
@@ -27,7 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let goals = [];
     let progressChart;
 
-    // Initialize the chart with empty data
     function initializeChart() {
         progressChart = new Chart(progressChartCtx, {
             type: 'line',
