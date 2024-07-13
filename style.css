@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F9F9F9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #d48c74; /* Background color of nav bar */
+    z-index: 1000; /* Ensure it's above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading{
+    color: #2B4570;
+    margin-left: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: right; /* Center align navigation items */
+    background-color: #d48c74; /* Background color of nav bar */
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0;
+    background-color: #d48c74;
+    border : none;
+}
+
+.nav-list a {
+    display: block;
+    padding: 15px 5px;
+    color: #2B4570;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    color: #4E638E; /* Background color on hover */
+}
+
+header{
+    background-color: #000; /* Black background color */
+    color: white;
+    background: #000 url("background.png") center center;
+    background-size: cover; 
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 750px;
+    width: 100%;
+}
+
+.intro{
+    color: #2B4570;
+    font-size: 55px;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.additional-info{
+    color: #2B4570;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 130px;
+    line-height: 1.5;
+}
+
+.About{
+    display: flex;
+    background-color: #fbfbfb;
+    align-items: center;
+    height: 600px;
+    padding: 50px;
+}
+
+.Features{
+    padding: 20px;
+    margin: 10px 100px 10px 100px ;
+    width: 40%; /* Adjust width as needed */
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #2B4570;
+}
+
+.opening{
+    font-size:30px;
+    padding-bottom: 20px;
+}
+
+.middle-body{
+    padding-left : 20px;
+}
+
+.sub{
+    padding-top: 10px;
+    color: #4E638E;
+}
+
+.image-container{
+    flex : 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+.animated-image {
+    width: 500px; /* Adjust the size as needed */
+    height: auto;
+    animation: moveImage 5s linear infinite;
+}
+
+.image{
+    width : 500px;
+    height : auto;
+}
+
+.image2{
+    width : 600px;
+    height : auto;
+}
+
+h1{
+    color: #2B4570;
+    font-size: 100px;
+}
+
+h2 {
+    color: #2B4570;
+}
+
+.workoutData{
+    display: flex;
+    color : #2B4570;
+    background-color: #fbfbfb;
+    align-items: center;
+    height: 600px;
+    padding: 50px;
+}
+
+.workout{
+    padding: 20px;
+    margin: 10px 100px 10px 100px ;
+    width: 40%; 
+    color : #2B4570;
+    background-color: #D48C74;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#workoutLog {
+    max-height: 200px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.GoalData{
+    display: flex;
+    align-items: center;
+    height: 570px;
+    background-color: #fbfbfb;  
+    padding: 50px; 
+}
+
+.Goal{
+    padding: 20px;
+    margin: 10px 100px 10px 100px ;
+    background-color: #d48c74;
+    width: 40%; /* Adjust width as needed */
+    color : #2B4570;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#goalList {
+    max-height: 250px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+#workoutType{
+    background-color: #E49273;
+}
+
+#goalType{
+    background-color: #E49273;
+}
+
+input{
+    background-color: #E49273;
+}
+
+.LogWorkout{
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #4E638E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2B4570;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    color: #2B4570;
+    padding: 10px;
+    background: #E49273;
+    margin-bottom: 10px;
+    border: 1px solid #2B4570;
+}
+
+.submitbutton{
+    margin-top: 20px;
+}
+
+.Progressbar{
+    display: flex;
+    /* justify-content: center; */
+    background-color: #fbfbfb;
+    height: auto;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#progress{
+    margin-left : 150px;
+}
+
+#progressChart {
+    width: 500px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #2B4570;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #E49273;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
