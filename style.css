@@ -11,8 +11,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #d48c74; /* Background color of nav bar */
-    z-index: 1000; /* Ensure it's above other content */
+    background-color: #d48c74;
+    z-index: 1000; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -30,8 +30,8 @@ body {
 .nav-list {
     list-style: none;
     display: flex;
-    justify-content: right; /* Center align navigation items */
-    background-color: #d48c74; /* Background color of nav bar */
+    justify-content: right; 
+    background-color: #d48c74; 
     margin: 0;
 }
 
@@ -50,11 +50,11 @@ body {
 }
 
 .nav-list a:hover {
-    color: #4E638E; /* Background color on hover */
+    color: #4E638E; 
 }
 
 header{
-    background-color: #000; /* Black background color */
+    background-color: #000; 
     color: white;
     background: #000 url("background.png") center center;
     background-size: cover; 
@@ -93,7 +93,7 @@ header{
 .Features{
     padding: 20px;
     margin: 10px 100px 10px 100px ;
-    width: 40%; /* Adjust width as needed */
+    width: 40%; 
     height: 100%;
     box-sizing: border-box;
     font-size: 20px;
@@ -120,11 +120,11 @@ header{
     justify-content: center;
     align-items: center;
     background-color: #F9F9F9;
-    overflow: hidden; /* Ensure the image doesn't overflow */
+    overflow: hidden; 
 }
 
 .animated-image {
-    width: 500px; /* Adjust the size as needed */
+    width: 500px;
     height: auto;
     animation: moveImage 5s linear infinite;
 }
@@ -169,8 +169,8 @@ h2 {
 }
 
 #workoutLog {
-    max-height: 200px; /* Adjust the height as needed */
-    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 200px;
+    overflow-y: auto; 
 }
 
 .GoalData{
@@ -185,7 +185,7 @@ h2 {
     padding: 20px;
     margin: 10px 100px 10px 100px ;
     background-color: #d48c74;
-    width: 40%; /* Adjust width as needed */
+    width: 40%; 
     color : #2B4570;
     height: 100%;
     box-sizing: border-box;
@@ -193,8 +193,8 @@ h2 {
 }
 
 #goalList {
-    max-height: 250px; /* Adjust the height as needed */
-    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 250px;
+    overflow-y: auto; 
 }
 
 #workoutType{
@@ -254,7 +254,6 @@ ul li {
 
 .Progressbar{
     display: flex;
-    /* justify-content: center; */
     background-color: #fbfbfb;
     height: auto;
 }
